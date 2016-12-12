@@ -1,0 +1,123 @@
+# This file created in 2010
+# cleaned up a bit in 2016, but all content is from 2010:
+
+http://www.accessribbon.de/en/
+
+http://www.pcreview.co.uk/forums/thread-3773149.php
+
+http://www.accessribbon.de/en/index.php?Access_-_Ribbons:Ribbon_Attributes
+
+===========
+
+demo_sample_tab:
+
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" > 
+ <ribbon startFromScratch="false" > 
+   <tabs> 
+     <tab id="CustomTab" label="DB Config" > 
+       <group id="SimpleControls" label="My Group"> 
+         <toggleButton id="ToggleButton1" 
+           size="large" label="Large Toggle Button"/> 
+         <button id="Button2" label="My Button " /> 
+         <comboBox id="Combo1" label="ComboBox"> 
+           <item id="Month1" label="January" /> 
+           <item id="Month2" label="February" /> 
+           <item id="Month3" label="March" /> 
+         </comboBox> 
+       </group> 
+     </tab> 
+   </tabs> 
+ </ribbon> 
+</customUI>
+
+
+DB_ConfigTab:
+
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" > 
+ <ribbon startFromScratch="false" > 
+   <tabs> 
+     <tab id="CustomTab" label="DB Config" > 
+
+       <group id="TweakInstall" label="Tweak Install"> 
+         <button idMso="DatabaseLinedTableManager" 
+           size="large" label="Linked Table Manager"/> 
+         <!-- <button id="Button2" label="My Button " /> --> 
+
+       </group>
+
+     </tab> 
+   </tabs> 
+ </ribbon> 
+</customUI>
+
+
+Test:
+======================
+
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" > 
+ <ribbon startFromScratch="false" > 
+   <tabs> 
+     <tab id="CustomTab" label="DB Tools" > 
+
+       <group id="TweakInstall" label="Tweak Install"> 
+         <button idMso="DatabaseLinedTableManager" 
+           size="large" label="Linked Table Manager"/>
+       </group>
+       <group id="DBMaint" label="Database Maint">
+       
+         <button idMso="FileBackupDatabase" 
+           size="small" label="Back Up Database"/> 
+
+         <button idMso="FileCompactAndRepairDatabase" 
+           size="small" label="Compact And Repair Database"/>         
+
+       </group>
+
+     </tab> 
+   </tabs> 
+ </ribbon> 
+</customUI>
+
+
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" > 
+ <ribbon startFromScratch="false" > 
+   <tabs> 
+     <tab id="CustomTab" label="DB Tools" > 
+
+       <group id="DBMaint" label="DB Maint"> 
+         <button idMso="FileBackupDatabase" 
+           size="large" label="Back Up Database"/> 
+       </group>
+
+     </tab> 
+   </tabs> 
+ </ribbon> 
+</customUI>
+
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" > 
+ <ribbon startFromScratch="false" > 
+   <tabs> 
+     <tab id="CustomTab" label="DB Tools" > 
+
+       <group id="DBMaint" label="DB Maint"> 
+         <button idMso="FileCompactAndRepairDatabase" 
+           size="large" label="Compact And Repair Database"/>         
+       </group>
+
+     </tab> 
+   </tabs> 
+ </ribbon> 
+</customUI>
+
+
+
+
+sample tags:
+====================
+
+       </group>
+       <group id="DBMaint" label="Database Maint">
+
+       <commands>
+          <command idMso="DatabaseLinedTableManager" enabled="true"/>
+       </commands>

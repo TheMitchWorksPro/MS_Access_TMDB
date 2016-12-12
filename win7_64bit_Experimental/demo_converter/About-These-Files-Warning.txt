@@ -1,0 +1,5 @@
+These files contain dangerous code.
+They are intended to obliterate a live database and/or
+convert it into fake demo data
+
+this part of the project is incomplete (code started but not finished)
