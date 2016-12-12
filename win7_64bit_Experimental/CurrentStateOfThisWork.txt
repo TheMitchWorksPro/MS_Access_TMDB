@@ -1,0 +1,43 @@
+--------------------------------
+Current State
+--------------------------------
+
+Switchboard Menus:
+* modified to support 23 buttons in two columns
+* Main dashboard illustrates this usage
+
+Excel_Macros code (excel_macros/TM_DB_Reports_FormattingTemplate.xlsm):
+* working file from 2012 has password locked VB Project
+* 2010 (vb project) was not locked and is in use in this project
+* subfolder now has excel files from 2010, 2011, and 2012 to help w/ future research
+  ** only the 2010 one is unlocked (VB Project)
+* the current working file and Access have been debugged for this implementation (Office 2013 on 64bit Win7)
+* this implementation uses the new .xlsm format for the macros and reporting
+
+Help files re-organized and moved to github project
+- edit them there
+
+
+
+-----------------------------------------------------------------
+Future planning:  Not done - thoughts about making this better
+-----------------------------------------------------------------
+
+* Create an alternate reporting dashboard with all source reports as query windows
+  ** user can then copy and paste into Excel should reporting macros have issues after a Microsoft software upgrade
+  ** this can serve as a hedge against tendency for MS Office VB to break with each new software release
+
+* restructure existing dashboards for new 2-column code
+  ** only main dashboard takes advantage of this feature right now
+  ** could make all buttons available in fewer dashboards using the dashboard TableEditor
+
+* create Demo and Main file copies from current working file
+* create .accde files to demonstrate roll-out
+  ** see help topics for hiding all currently exposed developer features
+
+* note:  demo_converter folder - incomplete code started years ago and never finished
+  ** this code could be explored and completed
+
+* chage report writing path so reports go ito reporting subfolder and not root of db
+
+* come up with way to automate steps to prep a db before building a .accde file
