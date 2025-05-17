@@ -42,8 +42,7 @@ principles that were implemented at work were left at work as per company policy
 ### Subproject folders:
 - [win_Pre7_MSOffice97](win_Pre7_MSOffice97): &nbsp;&nbsp;&nbsp;&nbsp; oldest Office 97 version of the code 
   - Code was tested years ago and ran on a 32bit older Windows Machine (Win95, NT, or XT)
-  - The code file would need to be re-linked to the database files in /data or /demo folders
-  - an HTML file that links to [this site](https://sites.google.com/site/tmdbtoydb/Home/tm-database-project/tm-database-project-pg2) is provided in this folder;  additional files need to be downloaded from here to complete the distribution.
+  - The code file would need to be re-linked to the database files in /data or /demo folders.
 - [win7_32Bit_Office2003](win7_32Bit_Office2003): &nbsp;&nbsp;&nbsp;&nbsp; version used for two different Toastmasters clubs as-of 2012
   - Code was tested and ran in MS Office 2003 on a 32bit Windows 7 Home Edition laptop
   - Code is expected to also work in MS Office 2007 but this has not been tested
