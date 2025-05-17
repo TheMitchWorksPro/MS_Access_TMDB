@@ -1,7 +1,7 @@
 # MS_Access_TMDB
 
 ## What Is This Project?
-This project originated as a database for managing data for [Toastmasters clubs](https://www.toastmasters.org/).  It was made available to Toastmasters clubs in 2008 via a [Google project site](https://sites.google.com/site/tmdbtoydb/Home/tm-database-project).  The code was deliberately locked to prevent accidents and the first version was created in Office 97 .mdb files.  Copies of this code base later became a starting point for multiple projects created behind the firewall at work that unfortunately will never see the light of day again.  For a quick visual demo of the Database, see [this presentation](TMDB_MS_Access_DB_About_DB_Presentation.pdf).
+This project originated as a database for managing data for [Toastmasters clubs](https://www.toastmasters.org/).  It was made available to Toastmasters clubs in 2008 via a Google project site.  The code was deliberately locked to prevent accidents and the first version was created in Office 97 .mdb files.  Copies of this code base later became a starting point for multiple projects created behind the firewall at work that unfortunately will never see the light of day again.  For a quick visual demo of the Database, see [this presentation](TMDB_MS_Access_DB_About_DB_Presentation.pdf).
 
 The code is now being opened up and presented here with the following intentions:
 
