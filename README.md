@@ -52,9 +52,6 @@ principles that were implemented at work were left at work as per company policy
 	- Code includes experiments to enhance the button dashboards to support more buttons arranged in 2-columns
 	- Reporting code tested and debugged but this version was never used in a live setting
 	- /Reporting folder has sample reports from testing using the /demo data 
-
-This [Google Project site](https://sites.google.com/site/tmdbtoydb/Home) has copies of the distributions that were made available to the public from 2008 to 2012 with instructions and help
-intended to help with installation of the distributions.  Hope you find this project useful.	
 	
 ![Mitch](https://github.com/TheMitchWorksPro/TestProject/blob/master/html_mitch_logo/Mitch_LogoBG.gif)
 
